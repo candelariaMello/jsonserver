@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "cliente": "Juan Pérez",
+    "vendedor": "María González",
+    "fecha": "2023-10-18",
+    "formaEntrega": "Envío a domicilio",
+    "tipoPedido": "Venta directa",
+    "estado": "Completado",
+    "monto": 1000,
+    "detalles": [
+      {
+        "id": 1,
+        "ventaId": 1,
+        "productoId": 1,
+        "descripcion": "Tornillos",
+        "precioUnitario": 100,
+        "cantidad": 2,
+        "total": 200
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cliente": "Cande Mello",
+    "vendedor": "Dani",
+    "fecha": "2023-10-18",
+    "formaEntrega": "Envío a domicilio",
+    "tipoPedido": "Venta directa",
+    "estado": "Completado",
+    "monto": 1000,
+    "detalles": [
+      {
+        "id": 1,
+        "ventaId": 1,
+        "productoId": 1,
+        "descripcion": "Cinta",
+        "precioUnitario": 100,
+        "cantidad": 2,
+        "total": 200
+      }
+    ]
+  }
+]
